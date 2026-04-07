@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+
+"""
+This script is meant to comb through all of the human protein mutation datasets (cancer, germline, and somatic) 
+and determine the total unique entries in each of the datasets. 
+It is also meant to output the total unique entries among all three datasets as well. The goal of this script is to highlight
+the amount of data that is currently available per dataset. 
+"""
 import csv
 import glob
 import os
