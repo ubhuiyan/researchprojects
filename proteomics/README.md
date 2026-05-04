@@ -1,4 +1,4 @@
-### Prediabetes Exercise Response Prediction Using Proteomics Data
+# Prediabetes Exercise Response Prediction Using Proteomics Data
 ## Overview
 
 This project develops and evaluates machine learning models to predict heterogeneous responses to high-intensity exercise in prediabetic individuals using baseline proteomics profiles. The dataset consists of 48 participants (34 responders, 16 non-responders) with 688 protein features derived from a published study (PMID: 36787735).
@@ -44,7 +44,7 @@ Kernel parameters (SVM)
 -----------------------------------------
 
 ## Key Results
-# Baseline Model Comparison (no resampling)
+### Baseline Model Comparison (no resampling)
 Models showed high training accuracy (~1.0) but variable test performance
 Logistic Regression and SVM demonstrated relatively better generalization compared to ensemble methods in this small dataset setting
 
@@ -68,21 +68,21 @@ Showed reduced performance under class imbalance conditions
 
 ## Effect of Resampling Techniques
 
-# SMOTE (Logistic Regression)
+### SMOTE (Logistic Regression)
 
 Test Accuracy: up to 0.93
 F1 Score: 0.92
 AUC: 0.93
 Improved performance but introduced variability across runs
 
-# SMOTE (SVM)
+### SMOTE (SVM)
 
 Test Accuracy: 0.64
 F1 Score: 0.71
 AUC: 0.16
 Highlighted instability of SVM under synthetic sampling
 
-# ADASYN (SVM) 
+### ADASYN (SVM) 
 
 Test Accuracy: 0.71
 F1 Score: 0.75
@@ -117,7 +117,7 @@ External validation on independent cohorts is required for clinical interpretati
 
 ----------------------------------------------
 
-# Tools & Libraries
+## Tools & Libraries
 Python
 scikit-learn
 imbalanced-learn (SMOTE, ADASYN)
