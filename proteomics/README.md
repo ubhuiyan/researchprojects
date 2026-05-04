@@ -27,19 +27,20 @@ Gaussian noise injection for synthetic augmentation
 ---------------------------
 
 ## Models Evaluated
-Logistic Regression
-Support Vector Machine (SVM)
-Random Forest
-Gradient Boosting
+
+- Logistic Regression
+- Support Vector Machine (SVM)
+- Random Forest
+- Gradient Boosting
 
 -----------------------------------------
 
 ## Hyperparameter Optimization
 Grid search used for tuning Logistic Regression and SVM models
 Evaluated key parameters such as:
-Regularization strength (C)
-Penalty type (L1/L2)
-Kernel parameters (SVM)
+- Regularization strength (C)
+- Penalty type (L1/L2)
+- Kernel parameters (SVM)
 
 -----------------------------------------
 
